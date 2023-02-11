@@ -27,7 +27,6 @@ h1 {
 }
 
 input, button {
-    color: lightgreen;
     background-color: white;
     border-color: lightgreen;
     font-family: Arial, Helvetica, sans-serif;
@@ -38,7 +37,8 @@ input, button {
 button {
     text-transform: uppercase;
     font-weight: 600;
-    width: 24%
+    width: 24%;
+    color: lightgreen;
 
 }
 
@@ -75,4 +75,7 @@ li span {
 
 main{
     width: 30%
+}
+span{
+    display: inline-block;
 }
